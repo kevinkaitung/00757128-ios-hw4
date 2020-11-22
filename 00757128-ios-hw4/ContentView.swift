@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var accountsData = accountData()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            accountList(accountsData: self.accountsData)
+                .tabItem {
+                    Image(systemName: "music.house.fill")
+                    Text("記帳")
+                }
+            chart(Accounts: self.accountsData)
+                .tabItem {
+                    Image(systemName: "music.house.fill")
+                    Text("支出統計")
+                }
+            chartBalance(Accounts: self.accountsData)
+                .tabItem {
+                    Image(systemName: "music.house.fill")
+                    Text("收支統計")
+                }
+        }
     }
 }
 

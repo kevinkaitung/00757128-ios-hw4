@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45230C0B2568EB67000FD5E7 /* chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45230C0A2568EB67000FD5E7 /* chart.swift */; };
+		45230C0E2568EB79000FD5E7 /* editView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45230C0D2568EB79000FD5E7 /* editView.swift */; };
+		45230C152568EEF5000FD5E7 /* dataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45230C142568EEF5000FD5E7 /* dataSet.swift */; };
+		45230C182568F07E000FD5E7 /* accountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45230C172568F07E000FD5E7 /* accountData.swift */; };
+		45230C1B2568F0CB000FD5E7 /* accountRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45230C1A2568F0CB000FD5E7 /* accountRow.swift */; };
+		45230C1F2568FDEA000FD5E7 /* accountList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45230C1E2568FDEA000FD5E7 /* accountList.swift */; };
+		45651300256A668D00FC90BB /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456512FF256A668D00FC90BB /* PieChartView.swift */; };
+		45651305256A8C1400FC90BB /* chartBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45651304256A8C1400FC90BB /* chartBalance.swift */; };
 		45C126812568E6A90085B111 /* _0757128_ios_hw4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C126802568E6A90085B111 /* _0757128_ios_hw4App.swift */; };
 		45C126832568E6A90085B111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C126822568E6A90085B111 /* ContentView.swift */; };
 		45C126852568E6AB0085B111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C126842568E6AB0085B111 /* Assets.xcassets */; };
@@ -14,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45230C0A2568EB67000FD5E7 /* chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chart.swift; sourceTree = "<group>"; };
+		45230C0D2568EB79000FD5E7 /* editView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editView.swift; sourceTree = "<group>"; };
+		45230C142568EEF5000FD5E7 /* dataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataSet.swift; sourceTree = "<group>"; };
+		45230C172568F07E000FD5E7 /* accountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountData.swift; sourceTree = "<group>"; };
+		45230C1A2568F0CB000FD5E7 /* accountRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountRow.swift; sourceTree = "<group>"; };
+		45230C1E2568FDEA000FD5E7 /* accountList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountList.swift; sourceTree = "<group>"; };
+		456512FF256A668D00FC90BB /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		45651304256A8C1400FC90BB /* chartBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartBalance.swift; sourceTree = "<group>"; };
 		45C1267D2568E6A90085B111 /* 00757128-ios-hw4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "00757128-ios-hw4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C126802568E6A90085B111 /* _0757128_ios_hw4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0757128_ios_hw4App.swift; sourceTree = "<group>"; };
 		45C126822568E6A90085B111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				45C126802568E6A90085B111 /* _0757128_ios_hw4App.swift */,
+				45230C172568F07E000FD5E7 /* accountData.swift */,
+				45230C1E2568FDEA000FD5E7 /* accountList.swift */,
+				45230C1A2568F0CB000FD5E7 /* accountRow.swift */,
+				45230C142568EEF5000FD5E7 /* dataSet.swift */,
+				45230C0A2568EB67000FD5E7 /* chart.swift */,
+				456512FF256A668D00FC90BB /* PieChartView.swift */,
+				45651304256A8C1400FC90BB /* chartBalance.swift */,
+				45230C0D2568EB79000FD5E7 /* editView.swift */,
 				45C126822568E6A90085B111 /* ContentView.swift */,
 				45C126842568E6AB0085B111 /* Assets.xcassets */,
 				45C126892568E6AB0085B111 /* Info.plist */,
@@ -139,7 +163,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				45C126832568E6A90085B111 /* ContentView.swift in Sources */,
+				45230C0E2568EB79000FD5E7 /* editView.swift in Sources */,
+				45230C152568EEF5000FD5E7 /* dataSet.swift in Sources */,
+				45230C1B2568F0CB000FD5E7 /* accountRow.swift in Sources */,
 				45C126812568E6A90085B111 /* _0757128_ios_hw4App.swift in Sources */,
+				45651305256A8C1400FC90BB /* chartBalance.swift in Sources */,
+				45230C1F2568FDEA000FD5E7 /* accountList.swift in Sources */,
+				45230C0B2568EB67000FD5E7 /* chart.swift in Sources */,
+				45230C182568F07E000FD5E7 /* accountData.swift in Sources */,
+				45651300256A668D00FC90BB /* PieChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
